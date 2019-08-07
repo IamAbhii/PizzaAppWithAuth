@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "JoinRole";
+}
+
+<h2>JoinRole</h2>
+@using (Html.BeginForm())
+{
+    @Html.DropDownList("roles", "Select Role");
+    <input type="submit" value="Join role" />
+}
